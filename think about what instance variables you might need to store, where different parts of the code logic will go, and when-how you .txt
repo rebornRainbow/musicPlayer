@@ -1,0 +1,2 @@
+think about what instance variables you might need to store, where different parts of the code logic will go, and when/how you will communicate between classes.
+

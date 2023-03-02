@@ -1,0 +1,45 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+
+#gif_display
+{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-color: grey;
+}
+
+
+#gif_display #foreground,#background{
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-color: grey;
+
+    position: absolute;;
+    top:0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.top{
+    z-index: 1;
+}
+
+#bar{
+    height: 70px;
+    display: flex;
+
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#bar img{
+    height: 60px;
+    width: 60px;
+}
